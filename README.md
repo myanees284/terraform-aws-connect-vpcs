@@ -5,7 +5,7 @@ If the transit gateway already exists, substitute isTGWExist as "yes" and tgwID 
 Otherwise isTGWExist as "no" and tgwID as ""
 ## Usage
 ~~~
-module "create_vpc_connection" {
+module "connect-vpcs" {
   source     = "github.com/myanees284/terraform-aws-connect-vpcs"
   region     = "us-east-2"
   vpc_id_1   = "vpc-123456"
